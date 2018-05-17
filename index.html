@@ -1,25 +1,24 @@
 <html>
 	<head>
 		<title> Zulc's site </title>
+		<link rel="stylesheet" href="style.css">
 	</head>
 
-	<body>
-	<center>
+	<header>
 		<img src="title.png"></img>
-		<hr>
+	</header>
 
-		<a href="iframe1/home.html" target="iframe_1">Home</a>
-		|
-		<a href="iframe1/images/images.html" target="iframe_1"> Images </a>
-		|
-		<a href="iframe1/downloads/downloads.html" target="iframe_1"> Downloads </a>
-		|
-		<a href="iframe1/weather/weather.html" target="iframe_1"> Weather </a>
-		|
-		<a href="iframe1/links.html" target="iframe_1"> Links </a>
+	<body>
+		<ul>
 
-		<hr>
-		<iframe name="iframe_1" src="iframe1/home.html" width="100%" height="100%" style="border:none"> </iframe>
-	</center>
+			<li><a href="iframe1/home.html" target="iframe_1">Home</a></li>
+			<li><a href="iframe1/images/images.html" target="iframe_1"> Images </a></li>
+			<li><a href="iframe1/downloads/downloads.html" target="iframe_1"> Downloads </a></li>
+			<li><a href="iframe1/weather/weather.html" target="iframe_1"> Weather </a></li>
+			<li><a href="iframe1/links.html" target="iframe_1"> Links </a></li>
+
+		</ul>
+
+		<iframe name="iframe_1" src="iframe1/home.html" ></iframe>
 	</body>
 </html>
